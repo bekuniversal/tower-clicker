@@ -1,0 +1,18 @@
+const SKINS = [
+  { id: "default", name: "Classic Brick", price: 0, type: "base", img: "assets/blocks/default.png" },
+  
+  // Обычные (за монеты)
+  { id: "wood", name: "Wooden Block", price: 200, type: "normal", img: "assets/blocks/wood.png" },
+  { id: "neon", name: "Neon Dream", price: 500, type: "normal", img: "assets/blocks/neon.png" },
+  { id: "stone", name: "Stone Fort", price: 700, type: "normal", img: "assets/blocks/stone.png" },
+  { id: "glass", name: "Glass House", price: 900, type: "normal", img: "assets/blocks/glass.png" },
+  { id: "tech", name: "Tech Block", price: 1100, type: "normal", img: "assets/blocks/tech.png" },
+  { id: "plant", name: "Bio Tower", price: 1300, type: "normal", img: "assets/blocks/plant.png" },
+
+  // Премиум (только за донат)
+  { id: "gold", name: "Golden Empire", price: 0, type: "premium", img: "assets/blocks/gold.png" },
+  { id: "crystal", name: "Crystal Core", price: 0, type: "premium", img: "assets/blocks/crystal.png" },
+  { id: "dark", name: "Dark Matter", price: 0, type: "premium", img: "assets/blocks/dark.png" },
+  { id: "rocket", name: "Rocket Stack", price: 0, type: "premium", img: "assets/blocks/rocket.png" },
+  { id: "alien", name: "Alien Reactor", price: 0, type: "premium", img: "assets/blocks/alien.png" }
+];

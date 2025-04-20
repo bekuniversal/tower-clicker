@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tower Clicker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas" width="360" height="640"></canvas>
+
+    <div id="ui">
+      <div id="top-bar">
+        <div id="timer">60</div>
+        <div id="score">Score: 0</div>
+        <div id="coins">Coins: 0</div>
+        <button id="muteBtn">🔊</button>
+      </div>
+      <button id="clickBtn">CLICK</button>
+      <button id="shopBtn">🏬 Магазин</button>
+    </div>
+
+    <div id="shop" class="hidden">
+      <h2>Магазин скинов</h2>
+      <div id="skins-list"></div>
+      <button onclick="closeShop()">Закрыть</button>
+    </div>
+  </div>
+
+  <script src="skins.json"></script>
+  <script src="game.js"></script>
+</body>
+</html>
